@@ -91,7 +91,7 @@ public class MessageReceiverController {
 			this.messageService.onMessage(inMessage);
 		} catch (Exception e) {
 			LOG.error("处理公众号信息出现错误：{}", e.getMessage());
-			LOG.debug("处理公众号信息时出现的错误详情：", e);
+			LOG.debug("处理公众号信息时出现的错误详情：", e); 
 		}
 
 		return "success";

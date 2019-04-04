@@ -16,3 +16,4 @@ spring:
       database: 7
 
 server.port: 8072
+ 
